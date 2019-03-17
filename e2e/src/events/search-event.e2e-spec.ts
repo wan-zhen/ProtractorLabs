@@ -1,5 +1,5 @@
 import { browser, by, element, $$ } from "protractor";
-fdescribe("search a event", () => {
+describe("search a event", () => {
   it("搜尋", async () => {
     await browser.get("/events");
     await element(by.name("searchTerm")).sendKeys("angular");
