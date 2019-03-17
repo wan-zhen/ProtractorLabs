@@ -27,6 +27,6 @@ exports.config = {
     });
     // 在不是 angular 環境的設定
     // await browser.waitForAngularEnabled(false)
-    jasmine.getEnv().addReporter(new SpecReporter({ spec: { displayStacktrace: true } }));
+    jasmine.getEnv().addReporter(new SpecReporter({ spec: { displayStacktrace: false } }));
   }
 };
