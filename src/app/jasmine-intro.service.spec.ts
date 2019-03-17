@@ -1,35 +1,42 @@
-import { JasmineIntroService } from './jasmine-intro.service';
+import { JasmineIntroService } from "./jasmine-intro.service";
 
-describe('JasmineIntroService', () => {
+describe("JasmineIntroService", () => {
+  let result;
+  let service: JasmineIntroService;
   beforeAll(() => {
-    console.log('beforeAll');
+    console.log("beforeAll");
   });
 
   beforeEach(() => {
-    console.log('beforeEach');
+    service = new JasmineIntroService();
+    console.log("beforeEach");
   });
 
-  it('should add two numbers', () => {
-    const service: JasmineIntroService = new JasmineIntroService();
-
-    const result = service.addNumber(1, 2);
-
-    expect(3).toEqual(result);
+  it("should add two numbers", () => {
+    result = service.addNumber(1, 2);
+    expect(result).toEqual(3);
   });
 
-  it('should subtract two numbers', () => {
-    const service: JasmineIntroService = new JasmineIntroService();
+  it("should subtract two numbers", () => {
+    result = service.subtractNumber(1, 2);
+    expect(result).toEqual(-1);
+  });
 
-    const result = service.subtractNumber(1, 2);
+  it("應該乘以兩個數", () => {
+    result = service.multiplicationtNumber(1, 2);
+    expect(result).toEqual(2);
+  });
 
-    expect(-1).toEqual(result);
+  it("應該除以兩個數", () => {
+    result = service.divideNumber(1, 2);
+    expect(result).toEqual(0.5);
   });
 
   afterEach(() => {
-    console.log('afterEach');
+    console.log("afterEach");
   });
 
   afterAll(() => {
-    console.log('afterAll');
+    console.log("afterAll");
   });
 });
