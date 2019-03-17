@@ -1,6 +1,7 @@
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
+    // 加入 ctrl + shift + B 自動 RUN 測試的快速設定
     "version": "2.0.0",
     "tasks": [
         {
