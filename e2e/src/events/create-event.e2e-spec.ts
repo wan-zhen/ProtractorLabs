@@ -1,5 +1,5 @@
 import { browser, by, element, $$ } from 'protractor';
-fdescribe('add a new event', () => {
+describe('add a new event', () => {
   it('建立活動', async () => {
     await browser.get('/events/new');
     const newEventTitle = 'Protractor 實戰';
@@ -44,7 +44,7 @@ fdescribe('add a new event', () => {
     await imageFile.sendKeys(imgPath);
     console.warn(await imageFile.getAttribute('value'));
     expect(await imageFile.getAttribute('value')).toBeTruthy();
-    await await element(by.buttonText('儲存')).click();
+    await element(by.buttonText('儲存')).click();
     const newEvent = $$('.well.hoverwell.thumbnail h2').last();
     expect((await newEvent.getText()) === newEventTitle);
   });
