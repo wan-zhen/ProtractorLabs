@@ -16,6 +16,14 @@ exports.config = {
   specs: [
     './src/**/*.e2e-spec.ts'
   ],
+  // 建立一組要測試的檔案範圍
+  suites: {
+    events: './src/events/**/*.e2e-spec.ts',
+    golden: [
+      './src/labs/golden.e2e-spec.ts',
+      './src/labs/golden-gif.e2e-spec.ts'
+    ]
+  },
   capabilities: {
     browserName: 'chrome',
   },
