@@ -1,5 +1,5 @@
 import { browser, by, element, $, ExpectedConditions as EC } from 'protractor';
-fdescribe('add a new user', () => {
+describe('add a new user', () => {
   it('新增會員', async () => {
     await browser.get('/user/new');
     await $('#username').sendKeys('mike');
@@ -18,6 +18,6 @@ fdescribe('add a new user', () => {
     await browser.switchTo().window(handles[0]);
     await browser.waitForAngularEnabled(true);
     await $('#add').click();
-    expect(await browser.getCurrentUrl()).toBe(browser.baseUrl + 'error');
+    expect(await browser.getCurrentUrl()).toBe(browser.baseUrl + 'events');
   });
 });
