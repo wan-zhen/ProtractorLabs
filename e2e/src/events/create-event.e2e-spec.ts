@@ -1,4 +1,4 @@
-import { browser, by, element, $$ } from 'protractor';
+import { browser, by, element, $$, ExpectedConditions as EC } from 'protractor';
 describe('add a new event', () => {
   it('建立活動', async () => {
     await browser.get('/events/new');
