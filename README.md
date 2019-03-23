@@ -59,3 +59,5 @@ https://stackoverflow.com/questions/55200176/how-to-define-types-in-protractor-c
 https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode&fbclid=IwAR0T8uJzlFOCi7fusV7vZaYaDSQTcxTm_8YL0eG53WM0ZfqhK9Tw2FHdXa0
 
 3. .vscode/protractor.code-snippets 裡面代碼可寫在這個專案的 snippets
+
+--user-data-dir=G:/Chrome 不用無痕模式 可以記錄使用者狀態在 G:/Chrome

@@ -26,6 +26,12 @@ exports.config = {
   },
   capabilities: {
     browserName: 'chrome',
+    chromeOptions: {
+      args: [
+        // 不用無痕模式 可以記錄使用者狀態在 G:/Chrome
+        "--user-data-dir=G:/Chrome"
+      ]
+    }
   },
   SELENIUM_PROMISE_MANAGER: false, // 停用 controllFlow
   highlitDelay: 2000, // 每個 it 停兩秒 要 run server 才有用
