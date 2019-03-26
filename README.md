@@ -113,20 +113,25 @@ oSession.utilReplaceInResponse('<head>', '<head> <script>delete navigator[\'__pr
 
     https://www.protractortest.org/?fbclid=IwAR2Rky6ptA-FemstnuM5FUortbDVBkZ4dvfhfyRP8qwfTAzP_Tdkk_NatrY#/mobile-setup
 
-3. 透過 Regex Pattern 搭配 ExpectedCondition 的方法
+    
+3.  模擬動作 API
+
+    https://www.protractortest.org/?fbclid=IwAR2obCKU6ef0p0pi9bXj0qUbsUqgvtraaxjTGry1Efu5Nb-mjSF8R8lddQQ#/api?view=webdriver.WebDriver.prototype.actions
+
+4. 透過 Regex Pattern 搭配 ExpectedCondition 的方法
 
     https://www.facebook.com/groups/2229968617266730/?multi_permalinks=2252695591660699%2C2252677531662505%2C2252674408329484%2C2252693898327535%2C2252693641660894&notif_id=1553312809232987&notif_t=group_activity
 
-4. 複製 CSS 選取器的 Chrome 擴充套件 
+5. 複製 CSS 選取器的 Chrome 擴充套件 
 
     https://chrome.google.com/webstore/detail/webdriver-scripting-assis/defeagjagbpfggackgppbadbafdfbjfo?fbclid=IwAR2qPsywlEUqStqkGNxV5kJfbIKQT4fMyuHPyESoF2WE4UdmLSVsWzMeIFw
 
-5. 如何將 Protractor 設定檔 (protractor.conf.js) 加入 TypeScript 型別檢查
+6. 如何將 Protractor 設定檔 (protractor.conf.js) 加入 TypeScript 型別檢查
 
     https://bit.ly/ProtractorConfigTypeScript?fbclid=IwAR3X8IQ0ush8VPsBvXvX5LXkz9GbxBAEJ40zP7xXZHeywEly0JgMUia8kkk
 
-6. 一次搞懂單元測試、整合測試、端對端測試之間的差異
+7. 一次搞懂單元測試、整合測試、端對端測試之間的差異
 
     https://blog.miniasp.com/post/2019/02/18/Unit-testing-Integration-testing-e2e-testing?fbclid=IwAR1GuCqVgODqMbVsJRf8hXiNIJYAWBMrwfgQf614GHQ3t-zT4lchJ-8jkO8
-    
+
 //TODO 用用看無頭模式
